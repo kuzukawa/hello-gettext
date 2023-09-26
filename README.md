@@ -54,3 +54,9 @@ We first need to update the `pot` file(as previously).
 xgettext --keyword=_ --language=C --add-comments --sort-output -o po/hello.pot hello.c
 ```
 
+Then, we merge it with the previous `po/ja/hello.po` file.
+
+``` shell
+msgmerge --update po/ja/hello.po po/hello.pot
+```
+
