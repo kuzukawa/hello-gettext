@@ -9,11 +9,12 @@
 int main() {
   /* Setting the i18n environment */
   setlocale(LC_ALL, "");
-  bindtextdomain("hello", getenv("PWD"));
+  bindtextdomain("hello", getenv("/usr/share/locale"));
   textdomain("hello");
 
   /* Example of i18n usage */
   printf(_("Hello World\n"));
+  puts(_("Good night"));
 
   return EXIT_SUCCESS;
 }
