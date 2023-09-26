@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hello 1.0\n"
 "Report-Msgid-Bugs-To: kuzukawa@gmail.com\n"
-"POT-Creation-Date: 2023-09-26 10:26+0900\n"
+"POT-Creation-Date: 2023-09-26 11:32+0900\n"
 "PO-Revision-Date: 2023-09-26 10:31+0900\n"
 "Last-Translator: Keisuke Kuzukawa <kuzukawa@keisukes-macbook-pro.local>\n"
 "Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
@@ -17,6 +17,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: hello.c:17
+msgid "Good night"
+msgstr ""
 
 #. Example of i18n usage
 #: hello.c:16
