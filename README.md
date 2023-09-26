@@ -17,4 +17,9 @@ msginit --input=po/hello.pot --locale=ja --output=po/ja/hello.po
 msgfmt --output-file=po/ja/hello.mo po/ja/hello.po
 ```
 
+## 4. copy `.mo` file to the right place
+
+``` shell
+cp -p po/ja/hello.mo ja/LC_MESSAGES/hello.mo
+```
 
