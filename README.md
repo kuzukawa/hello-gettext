@@ -10,3 +10,11 @@ xgettext --keyword=_ --language=C --add-comments --sort-output -o po/hello.pot h
 ``` shell
 msginit --input=po/hello.pot --locale=ja --output=po/ja/hello.po
 ```
+
+## 3. create `.mo` file.
+
+``` shell
+msgfmt --output-file=po/ja/hello.mo po/ja/hello.po
+```
+
+
