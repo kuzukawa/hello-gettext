@@ -60,3 +60,8 @@ Then, we merge it with the previous `po/ja/hello.po` file.
 msgmerge --update po/ja/hello.po po/hello.pot
 ```
 
+Finally, we write the translation of the new string in the `.po` file and build the `.mo` file as follow.
+
+``` shell
+msgfmt --output-file=po/ja/hello.mo po/ja/hello.po
+```
