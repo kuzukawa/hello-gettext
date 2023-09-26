@@ -20,7 +20,7 @@ msgstr ""
 
 #: hello.c:17
 msgid "Good night"
-msgstr ""
+msgstr "おやすみなさい"
 
 #. Example of i18n usage
 #: hello.c:16
